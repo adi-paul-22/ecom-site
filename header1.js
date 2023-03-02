@@ -13,7 +13,7 @@ const navbar = `
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
       <a href="login.html" class="btn btn-outline-secondary me-2 mx-lg-0 mt-3 mt-lg-0">Login</a>
-      <i class="fa fa-shopping-cart mt-3 mt-lg-0" style="font-size:24px"></i>
+      <a href="cart.html" class="text-black">  <i class="fa fa-shopping-cart mt-3 mt-lg-0" style="font-size:24px"></i> </a>
     </div>
   </div>
 </nav>
