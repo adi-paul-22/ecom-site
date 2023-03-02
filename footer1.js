@@ -4,7 +4,7 @@ const footerTemplate = `
       <section style="text-decoration: none;">
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Women</h5>
+            <a href="women.html" class="text-white"><h5 class="text-uppercase">Women</h5>
             <ul class="list-unstyled mb-0">
               <li>
                 <a href="women.html" class="text-white">Dresses</a>
@@ -18,7 +18,7 @@ const footerTemplate = `
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <a href=men.html ><h5 class="text-uppercase">Men</h5></a>
+            <a href="men.html" class="text-white" ><h5 class="text-uppercase">Men</h5></a>
             <ul class="list-unstyled mb-0">
               <li>
                 <a href="men.html" class="text-white">Shirts</a>
