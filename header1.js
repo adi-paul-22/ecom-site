@@ -12,7 +12,7 @@ const navbar = `
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <a href="login.html" class="btn btn-outline-secondary me-2 mx-lg-0 mt-3 mt-lg-0">Login</a>&nbsp;
+      <a href="login.html" class="btn btn-outline-secondary me-2 mx-lg-0 mt-3 mt-lg-0">Login</a>&nbsp &nbsp;
       <a href="cart.html" class="text-black">       <i class="fa fa-shopping-cart mt-3 mt-lg-0" style="font-size:30px"></i> </a>
     </div>
   </div>
