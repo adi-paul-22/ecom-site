@@ -32,7 +32,7 @@ const footerTemplate = `
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <a href="kids.html" ><h5 class="text-uppercase">Kids</h5></a>
+            <a href="kids.html" ><h5 class="text-white">Kids</h5></a>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
