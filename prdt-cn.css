@@ -1,0 +1,20 @@
+.product-container {
+    padding: 0 0;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  .product-container::-webkit-scrollbar {
+    display: none;
+  } 
+  @media (max-width: 720px) {
+    .product-container .col {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+ 
+.card{
+    margin: 0 10px;
+}
+
