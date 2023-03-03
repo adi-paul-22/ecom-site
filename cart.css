@@ -121,9 +121,9 @@
 		}
 
 		.checkout-btn {
-			background-color: #333;
-			color: #fff;
-      border: none;
+		background-color: #333;
+		color: #fff;
+        border: none;
 		padding: 0.5rem 1rem;
 		border-radius: 5px;
 		font-size: 1rem;
@@ -137,14 +137,13 @@
 	}
 
 	@media screen and (max-width: 768px) {
-		/* Cart Grid */
 		.cart-grid {
 			grid-template-columns: 1fr;
 		}
 	}
   @media only screen and (max-width: 768px) {
     .summary {
-      grid-column: 1 / span 2; /* span 2 columns */
+      grid-column: 1 / span 2;
       margin: 0 auto; /* center-align horizontally */
     }
   }
