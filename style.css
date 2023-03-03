@@ -20,5 +20,25 @@ img {
   
   .card{
     border:1px solid black;
-    margin:5px 0;
+    margin:5px 5px;
   }
+  *{
+    font-family: cursive;
+  }
+  .custom-navbar{
+    background-color: rgba(0,0,0,0.1);
+  }
+  .card {
+    background-color: #000;
+    color: #fff;
+    margin:10px 10px;
+  }
+  
+  .card-body {
+    background-color: #212529;
+  }
+  body{
+    background-image: linear-gradient(to bottom right, #f3dcfb , #154e94);
+  }
+  
+  

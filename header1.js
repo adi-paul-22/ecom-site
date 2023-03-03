@@ -1,5 +1,5 @@
 const navbar = `
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- Add navbar-dark class here -->
   <div class="container-fluid">
     <a class="navbar-brand" href="contact.html">
       <img src="/images/logo.jpg" alt="Logo" width="50" height="35">
@@ -13,12 +13,12 @@ const navbar = `
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
       <a href="login.html" class="btn btn-outline-secondary me-2 mx-lg-0 mt-3 mt-lg-0">Login</a>&nbsp &nbsp;
-      <a href="cart.html" class="text-black">       <i class="fa fa-shopping-cart mt-3 mt-lg-0" style="font-size:30px"></i> </a>
+      <a href="cart.html" class="text-white">       <i class="fa fa-shopping-cart mt-3 mt-lg-0" style="font-size:30px"></i> </a> <!-- Change text-black to text-white here -->
     </div>
   </div>
 </nav>
 
-<nav class="navbar navbar-expand-md navbar-light bg-light ">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark"> <!-- Add navbar-dark class here -->
   <div class="container-fluid">
     <div class="navbar-nav mx-auto">
       <a class="nav-link  active" aria-current="page" href="index.html">Home</a>
@@ -27,19 +27,19 @@ const navbar = `
         <a class="nav-link  dropdown-toggle" href="women.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Women</a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="women.html">All</a></li>
+          <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="women.html">Skirts</a></li>
           <li><a class="dropdown-item" href="women.html">Pants</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Shirts</a></li>
+          <li><a class="dropdown-item" href="women.html">Dresses</a></li>
         </ul>
       </div>
       <div class="nav-item dropdown">
         <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Men</a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="men.html">All</a></li>
+          <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="men.html">Hoodies</a></li>
           <li><a class="dropdown-item" href="men.html">Pants</a></li>
-          <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="men.html">Shirts</a></li>
         </ul>
       </div>
